@@ -23,10 +23,10 @@ func EditCredFile(filePath, profile, mfaPrf, IDEnv, KeyEnv, token string) (map[s
 
 	b := string(body)
 	c := strings.TrimSpace(b)
-	sections := strings.Split(c, "\n\n")
+	sections := strings.Split(c, "\n\n") // A new line between aws profiles is required to parse the file correctly
 	for _, s := range sections {
 		var v Section
-		sl := strings.Split(s, "\n") // A new line between aws profiles is required to parse the file correctly
+		sl := strings.Split(s, "\n")
 		for _, sv := range sl {
 			if strings.Contains(sv, "aws_access_key_id") {
 				v.IDEnv = sv
