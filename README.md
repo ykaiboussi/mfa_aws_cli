@@ -24,7 +24,7 @@ Usage of mfa_aws_cli_setup:
 ```
 
 ## Note
-In order to parse `$HOME/.aws/credentials` corretly. A new line is required betweeen multiple profiles. As an example `test_data/credentials`
+In order to parse `$HOME/.aws/credentials` corretly. A new line is required between multiple profiles. As an example `test_data/credentials`
 
 
 ## Credits 
