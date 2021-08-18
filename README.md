@@ -1,4 +1,4 @@
-# mfa_aws_cli_setup
+# mfa_aws_cli
 
 mfa_aws_cli_setup is a lightweight utility tool that generates [AWS MFA profile](https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/) using `aws-sdk-go-v2` and no external library used when parsing secrets.
 
